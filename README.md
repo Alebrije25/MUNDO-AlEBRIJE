@@ -1,0 +1,16 @@
+<h2>¡Comparte tu rincón artesanal!</h2>
+<p>¿Cómo luce tu casa con un toque de Oaxaca?</p>
+<ul>
+  <li>📸 Sube una foto usando tu producto artesanal.</li>
+  <li>🗳️ Recibe votos de la comunidad.</li>
+  <li>🎁 Gana premios mensuales.</li>
+</ul>
+<form>
+  <label for="photo">Sube tu foto:</label><br>
+  <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+  <label for="description">Cuéntanos brevemente qué significa para ti:</label><br>
+  <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+  <button type="submit">¡Participar!</button>
+</form>
